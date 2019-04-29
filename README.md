@@ -37,7 +37,7 @@ If you find PFNet useful in your research, please consider citing:
 ```
 @inproceedings{zeng18rethinking,
   author    = {Rui Zeng and Simon Denman and Sridha Sridharan and Clinton Fookes},
-  title     = {Rethinking Planar Homography Estimation Using Perspective Field},
+  title     = {Rethinking Planar Homography Estimation Using Perspective Fields},
   booktitle = {Asian Conference on Computer Vision (ACCV)},
   year      = {2018},
 }
