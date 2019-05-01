@@ -2,7 +2,7 @@
 # Perspective Field Network
 Code Repo of 'Rethinking Planar Homography Estimation Using Perspective Fields'
 
-Tensorflow/Keras implementation for reproducing Perspective Network (PFNet) results in the paper [Rethinking Planar Homography Estimation Using Perspective Field](https://eprints.qut.edu.au/126933/) by Rui Zeng, Simon Denman, Sridha Sridharan, Clinton Fookes.
+Tensorflow/Keras implementation for reproducing Perspective Network (PFNet) results in the paper [Rethinking Planar Homography Estimation Using Perspective Fields](https://eprints.qut.edu.au/126933/) by Rui Zeng, Simon Denman, Sridha Sridharan, Clinton Fookes.
 ***
 ### COCO Dataset
 - Please refer to [Common Objects in Context](http://cocodataset.org/#home) to download the dataset used in the paper.
