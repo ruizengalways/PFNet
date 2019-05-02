@@ -331,21 +331,6 @@ def metric_paf(Y_true, Y_pred, PATCH_SIZE, base_four_points, perturbed_base_four
         base_four_points_in_loop = base_four_points[i, :]
         perturbed_base_four_points_in_loop = perturbed_base_four_points[i, :]
 
-        delta_left_top_x = Y_true_in_loop[0, 0, 0]
-        delta_left_bottom_x = Y_true_in_loop[127, 0, 0]
-        delta_right_bottom_x = Y_true_in_loop[127, 127, 0]
-        delta_right_top_x = Y_true_in_loop[0, 127, 0]
-
-        delta_left_top_y = Y_true_in_loop[0, 0, 1]
-        delta_left_bottom_y = Y_true_in_loop[127, 0, 1]
-        delta_right_bottom_y = Y_true_in_loop[127, 127, 1]
-        delta_right_top_y = Y_true_in_loop[0, 127, 1]
-
-        gt_delta_four_point = np.asarray([(delta_left_top_x, delta_left_top_y),
-                                   (delta_left_bottom_x, delta_left_bottom_y),
-                                   (delta_right_bottom_x, delta_right_bottom_y),
-                                   (delta_right_top_x, delta_right_top_y)])*256
-
         # define corners of image patch
         top_left_point = (base_four_points_in_loop[0], base_four_points_in_loop[1])
         bottom_left_point = (base_four_points_in_loop[2], base_four_points_in_loop[3])
